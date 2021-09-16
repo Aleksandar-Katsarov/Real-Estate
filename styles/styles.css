@@ -1,0 +1,158 @@
+body {
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 !important;
+}
+
+
+h2, h3, h4, p {
+  margin: 0;
+  padding: 10px;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 45px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #CB997E;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+/*This is fo our navigation*/
+
+nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+nav ul li {
+  justify-content: space-around;
+}
+
+nav ul li img{
+  width: 100px;
+  height: auto;
+}
+
+
+.main {
+  opacity: 0.98;
+}
+
+.mission{
+  background-image: url('../img/chicago_dark.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  display: flex;
+  height: 500px;
+  padding-top: 35px;
+}
+
+.mission .content {
+  margin: auto;
+  color: #ffffff;
+  width: 100%;
+  text-shadow: 2px 2px 7px #000000;
+}
+
+.content{
+  margin: 0;
+  padding: 10px;
+}
+
+.type_of_properties{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.properties {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+div.properties img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+
+
+div.properties span {
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+  color: #CB997E;
+}
+
+#team-container{
+  padding-top: 25px;
+}
+
+
+div.team {
+  background-image: url('../img/chicago_3_dark.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+div.teammate {
+  padding: 10px;
+  color: white;
+  flex-basis: 280px;
+  text-shadow: 2px 2px 7px #000000;
+}
+
+.teammate img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto;
+}   
+
+footer {
+  padding-top: 30px;
+}
+
+.copyright {
+  padding-top: 20px;
+}
